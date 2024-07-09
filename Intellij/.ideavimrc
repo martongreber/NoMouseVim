@@ -1,0 +1,23 @@
+"" Source your .vimrc
+source ~/.vimrc
+
+" nunmap s
+
+" goto definition
+nmap gd <Action>(GotoDeclaration)
+nmap gb <Action>(Back)
+
+" create split
+nmap sl <Action>(SplitVertically)
+
+" Focus left right
+nmap fh <Action>(PrevSplitter)
+nmap fl <Action>(NextSplitter)
+
+" Change buffers
+nmap bl <Action>(NextTab)
+nmap bh <Action>(PreviousTab)
+nmap bd <Action>(CloseContent)
+
+" CMD + p for fuzzy searching
+nmap <D-p> <Action>(SearchEverywhere)

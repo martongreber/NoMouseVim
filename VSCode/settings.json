@@ -1,0 +1,81 @@
+"vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["b", "s"],
+            "commands": [
+                "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
+            ]
+        },
+        {
+            "before": ["b", "l"],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": ["b", "h"],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": ["g", "d"],
+            "commands": [
+                "editor.action.revealDefinition"
+            ]
+        },
+        {
+            "before": ["g", "b"],
+            "commands":[
+                "workbench.action.navigateBack"
+            ]
+        },
+
+        {
+            "before":["s","l"],
+            "commands":[
+                "workbench.action.splitEditorRight"
+            ]
+        },
+        {
+            "before":["s","h"],
+            "commands":[
+                "workbench.action.splitEditorLeft"
+            ]
+        },
+        {
+            "before":["s","j"],
+            "commands":[
+                "workbench.action.splitEditorDown"
+            ]
+        },
+        {
+            "before":["s","k"],
+            "commands":[
+                "workbench.action.splitEditorUp"
+            ]
+        },
+        {
+            "before":["f","l"],
+            "commands":[
+                "workbench.action.focusRightGroup"
+            ]
+        },
+        {
+            "before":["f","h"],
+            "commands":[
+                "workbench.action.focusLeftGroup"
+            ]
+        },
+        {
+            "before":["f","k"],
+            "commands":[
+                "workbench.action.focusAboveGroup"
+            ]
+        },
+        {
+            "before":["f","j"],
+            "commands":[
+                "workbench.action.focusBelowGroup"
+            ]
+        },
+    ],
